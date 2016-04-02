@@ -1,0 +1,30 @@
+{
+  "name": "parse-dashboard-heroku",
+  "version": "1.0.0",
+  "description": "Deploy Parse Dashboard to Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didierfranc/parse-dashboard-heroku.git"
+  },
+  "keywords": [
+    "parse",
+    "dashboard",
+    "heroku"
+  ],
+  "author": "Didier Franc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/didierfranc/parse-dashboard-heroku/issues"
+  },
+  "homepage": "https://github.com/didierfranc/parse-dashboard-heroku#readme",
+  "dependencies": {
+    "parse-dashboard": "^1.0.7"
+  },
+  "scripts": {
+    "start": "node ./node_modules/parse-dashboard/Parse-Dashboard/index.js"
+  }
+}
