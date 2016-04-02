@@ -25,6 +25,6 @@
     "parse-dashboard": "^1.0.7"
   },
   "scripts": {
-    "start": "./node_modules/parse-dashboard/bin/parse-dashboard --allowInsecureHTTP"
+    "start": "node ./node_modules/parse-dashboard/Parse-Dashboard/index.js"
   }
 }
