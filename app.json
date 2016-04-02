@@ -1,0 +1,13 @@
+{
+  "name": "Parse Dashboard Heroku",
+  "description": "Run Parse dashboard on Heroku",
+  "repository": "https://github.com/didierfranc/parse-dashboard-heroku",
+  "keywords": ["parse", "dashboard", "heroku"],
+  "env": {
+    "PARSE_DASHBOARD_CONFIG": {
+      "description": "Default configuration",
+      "value": "{ "apps": [ { "serverURL" : "serverURL", "appId" : "1111", "masterKey" : "masterKey", "appName" : "My App" } ],  "users" : [ { "user" : "user", "pass" : "pass" } ] }"
+    }
+  },
+  "image": "heroku/nodejs"
+}
