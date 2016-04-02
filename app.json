@@ -4,6 +4,7 @@
   "repository": "https://github.com/didierfranc/parse-dashboard-heroku/",
   "env": {
     "PARSE_DASHBOARD_SERVER_URL": "URL of your Parse server",
+    "PARSE_DASHBOARD_APP_NAME": "Your app name",
     "PARSE_DASHBOARD_MASTER_KEY": "Your Parse app Master Key",
     "PARSE_DASHBOARD_APP_ID": "Your Parse App ID",
     "PARSE_DASHBOARD_USER_ID": "Set an user ID",
