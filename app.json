@@ -4,9 +4,9 @@
   "repository": "https://github.com/didierfranc/parse-dashboard-heroku",
   "keywords": ["parse", "dashboard", "heroku"],
   "env": {
-    "PARSE_DASHBOARD_CONFIG": {
+    "PARSE_DASHBOARD_MASTER_KEY": {
       "description": "Default configuration",
-      "value": "{ 'apps': [ { 'serverURL' : 'serverURL', 'appId' : '1111', 'masterKey' : 'masterKey', 'appName' : 'My App' } ],  'users' : [ { 'user' : 'user', 'pass' : 'pass' } ] }"
+      "value": "1111"
     }
   },
   "image": "heroku/nodejs"
