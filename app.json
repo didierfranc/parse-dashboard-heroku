@@ -6,7 +6,7 @@
   "env": {
     "PARSE_DASHBOARD_CONFIG": {
       "description": "Default configuration",
-      "value": "{ 'apps': [ { 'serverURL' : 'serverURL', 'appId' : '1111', 'masterKey' : 'masterKey', 'appName' : 'My App' } ],  'users' : [ { 'user' : 'user', 'pass' : 'pass' } ] }'
+      "value": "{ 'apps': [ { 'serverURL' : 'serverURL', 'appId' : '1111', 'masterKey' : 'masterKey', 'appName' : 'My App' } ],  'users' : [ { 'user' : 'user', 'pass' : 'pass' } ] }"
     }
   },
   "image": "heroku/nodejs"
