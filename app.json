@@ -5,7 +5,7 @@
   "keywords": ["parse", "dashboard", "heroku"],
   "env": {
     "PARSE_DASHBOARD_MASTER_KEY": "1111",
-    "PARSE_DASHBOARD_APP_ID": "1111"
+    "PARSE_DASHBOARD_APP_ID": "1111",
     "PARSE_DASHBOARD_SERVER_URL": "http://app.herokuapp.com/parse"
   },
   "image": "heroku/nodejs"
