@@ -2,6 +2,7 @@
   "name": "Parse Dashboard Heroku",
   "description": "Run Parse dashboard on Heroku",
   "repository": "https://github.com/didierfranc/parse-dashboard-heroku/",
+  "logo": "https://raw.githubusercontent.com/didierfranc/parse-logo/master/logo.png"
   "env": {
     "PARSE_DASHBOARD_SERVER_URL": "URL of your Parse server",
     "PARSE_DASHBOARD_APP_NAME": "Your app name",
