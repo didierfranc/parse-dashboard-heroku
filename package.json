@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/didierfranc/parse-dashboard-heroku#readme",
   "dependencies": {
-    "parse-dashboard": "^1.0.7"
+    "parse-dashboard": "^1.0.10"
   },
   "scripts": {
     "start": "./node_modules/parse-dashboard/bin/parse-dashboard"
