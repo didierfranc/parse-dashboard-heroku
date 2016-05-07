@@ -22,6 +22,6 @@
     "parse-dashboard": "^1.0.10"
   },
   "scripts": {
-    "start": "./node_modules/parse-dashboard/bin/parse-dashboard --config config.json --allowInsecureHTTP=1"
+    "start": "./node_modules/parse-dashboard/bin/parse-dashboard"
   }
 }
