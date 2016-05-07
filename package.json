@@ -1,11 +1,8 @@
 {
   "name": "parse-dashboard-heroku",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deploy Parse Dashboard to Heroku",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/didierfranc/parse-dashboard-heroku.git"
@@ -25,6 +22,6 @@
     "parse-dashboard": "^1.0.10"
   },
   "scripts": {
-    "start": "./node_modules/parse-dashboard/bin/parse-dashboard"
+    "start": "./node_modules/parse-dashboard/bin/parse-dashboard --config config.json --allowInsecureHTTP=1"
   }
 }
